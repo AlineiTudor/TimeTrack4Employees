@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="styles2.css">
+    <meta charset="UTF-8">
+    <title>Admin Application Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/employee.js"></script>
+</head>
+
+<body onload="getEmployees()" id="body">
+<h1 id="title">Employees clocking</h1>
+
+<div id="user-table">
+    <table>
+        <tr>
+            <td><b>Select employee: </b></td>
+            <td><select name="employees" id="selectEmployee" ></select></td>
+        </tr>
+        <tr>
+            <td><b>Start Date:</b></td>
+            <td><input type="date" id="startDate" value="2022-01-01"></td>
+        </tr>
+        <tr>
+            <td><b>End Date:</b></td>
+            <td><input type="date" id="endDate" value="2022-01-01"></td>
+        </tr>
+        <tr>
+            <td><br></td>
+            <td><br></td>
+        </tr>
+    </table>
+    <input id="button" type="button" value="Hours worked" onClick="getHoursWorked()">
+
+</div>
+
+<div id="result-box">
+    <h2 id="result">0</h2>
+</div>
+</body>
+</html>

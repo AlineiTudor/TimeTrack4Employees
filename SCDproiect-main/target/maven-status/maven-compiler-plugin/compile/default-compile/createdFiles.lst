@@ -1,0 +1,6 @@
+edu\utcn\timetracking\server\employee\Employee.class
+edu\utcn\timetracking\server\employee\EmployeeService.class
+edu\utcn\timetracking\server\employee\EmployeeRepository.class
+edu\utcn\timetracking\server\ServerApplication.class
+edu\utcn\timetracking\server\employee\EmployeeController.class
+Client\ClientMenu.class
